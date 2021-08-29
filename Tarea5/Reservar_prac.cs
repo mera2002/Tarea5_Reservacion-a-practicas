@@ -47,6 +47,7 @@ namespace Tarea5
                     Console.ReadKey();
                     return true;
                 case "3":
+                    deleteData(); 
 
                     return true;
                 case "4":
@@ -151,6 +152,38 @@ namespace Tarea5
             {
                 Console.WriteLine("El registro no se encontro!");
             }
+        }
+        //metodo para eliminar una reservación 
+        private static void deleteData()
+        {
+            Console.Write("Escriba el nombre del estudiante a eliminar: ");
+            var name = Console.ReadLine();
+            if (search(name))
+            {
+                Console.WriteLine("El registro existe!");
+                Dictionary<object, object> temp = new Dictionary<object, object>();
+                temp = readFile();
+
+                temp.Remove(name); //eliminar elemento del diccionario
+
+                Console.WriteLine("El registro ha sido eliminado!");
+                File.Delete(getPath()); //eliminamos archivos y posteriormente lo volvemos a crear
+
+                using (StreamWriter sw = File.AppendText(getPath()))
+                {
+                    foreach (KeyValuePair<object, object> values in temp)
+                    {
+                        sw.WriteLine("{0}; {1}", values.Key, values.Value);
+                        // sw.Close();
+                    }
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("El registro no se encontro!");
+            }
+
         }
 
 

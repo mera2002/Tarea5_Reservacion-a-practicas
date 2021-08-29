@@ -5,3 +5,10 @@ C:\Tarea5\Tarea5\obj\Debug\Tarea5.csproj.AssemblyReference.cache
 C:\Tarea5\Tarea5\obj\Debug\Tarea5.csproj.CoreCompileInputs.cache
 C:\Tarea5\Tarea5\obj\Debug\Tarea5.exe
 C:\Tarea5\Tarea5\obj\Debug\Tarea5.pdb
+C:\TAREA_05\Tarea5_Reservacion-a-practicas\Tarea5\bin\Debug\Tarea5.exe.config
+C:\TAREA_05\Tarea5_Reservacion-a-practicas\Tarea5\bin\Debug\Tarea5.exe
+C:\TAREA_05\Tarea5_Reservacion-a-practicas\Tarea5\bin\Debug\Tarea5.pdb
+C:\TAREA_05\Tarea5_Reservacion-a-practicas\Tarea5\obj\Debug\Tarea5.csproj.AssemblyReference.cache
+C:\TAREA_05\Tarea5_Reservacion-a-practicas\Tarea5\obj\Debug\Tarea5.csproj.CoreCompileInputs.cache
+C:\TAREA_05\Tarea5_Reservacion-a-practicas\Tarea5\obj\Debug\Tarea5.exe
+C:\TAREA_05\Tarea5_Reservacion-a-practicas\Tarea5\obj\Debug\Tarea5.pdb
