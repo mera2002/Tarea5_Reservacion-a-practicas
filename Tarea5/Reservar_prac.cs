@@ -50,7 +50,13 @@ namespace Tarea5
 
                     return true;
                 case "4":
-
+                    //mostrar el contenido del archivo
+                    Console.WriteLine("LISTADO DE ESTUDIANTES");
+                    foreach (KeyValuePair<object, object> data in readFile())
+                    {
+                        Console.WriteLine("{0}: {1}", data.Key, data.Value);
+                    }
+                    Console.ReadKey();
                     return true;
                 case "5":
                     return false;
@@ -151,8 +157,12 @@ namespace Tarea5
             {
                 Console.WriteLine("El registro no se encontro!");
             }
+            Console.WriteLine("LISTADO DE ESTUDIANTES");
+            foreach (KeyValuePair<object, object> data in readFile())
+            {
+                Console.WriteLine("{0}: {1}", data.Key, data.Value);
+            }
+            Console.ReadKey();
         }
-
-
     }
 }
